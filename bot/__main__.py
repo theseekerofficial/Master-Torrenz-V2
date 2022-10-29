@@ -70,8 +70,18 @@ Type /{BotCommands.HelpCommand} to get a list of available commands 🤝
 '''
         sendMarkup(start_string, context.bot, update.message, reply_markup)
     else:
-        sendMarkup(''''You can not use me in Priver Message. 
-                       Please Join (https://t.me/Master_Torrenz_s_Cave) To use me.I can do many things. Some of them are 👇                                   ✨Upload any direct link to GDrive (No need Your google drive    access, I upload files to my own shared drive)                                                                                                            ✨Seed any Torrentz without SIZE LIMIT 😨                                  ✨Download any YT Video and more.                                                                                                                                                               Join the group and Try😍
+        sendMarkup('''💠Hey Stanger, You can not use me in Priver Message.
+
+💠Please Join (https://t.me/Master_Torrenz_s_Cave) To use me.
+💠I can do many things. Some of them are 👇
+      ✨Upload any direct link to GDrive (No need Your google drive access, I upload files to my own shared drive)
+      ✨Upload any direct link to Telegram
+      ✨Mirror or Leech any Torrent without SIZE LIMIT 😨
+      ✨Download any YT Video ( All ytdl site supports too )
+      ✨Clone GDrive Files
+      
+💠Join the group and Try😍
+💠For more bots join our channel
                    ''', context.bot, update.message, reply_markup)
 
 def restart(update, context):
