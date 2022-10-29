@@ -60,7 +60,7 @@ def start(update, context):
     reply_markup = buttons.build_menu(2)
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
         start_string = f'''
-🔻The Supper Powered Master Torrenz V3 is online now 😈.  
+🔻The Super Powered Master Torrenz V3 is online now 😈.  
 
 🔻For Now my Maximum DL Speed is 120 MB/s
 🔻For Now my Maximum UL Speed is 50 MB/s
