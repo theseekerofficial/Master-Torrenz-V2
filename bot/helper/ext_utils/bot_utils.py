@@ -133,7 +133,7 @@ def get_readable_message():
                 globals()['PAGE_NO'] -= 1
         for index, download in enumerate(list(download_dict.values())[COUNT:], start=1):
             msg += f"\n\n<b>Name 🗂:</b> <code>{escape(str(download.name()))}</code>"
-            msg += f"\n<b>Status 📃:</b> <i><b><u>{download.status()}</i></b></u> |Engine ⚙️: {download.eng()}"
+            msg += f"\n<b>Status 📃:</b> <i><b>{download.status()}</i></b> |Engine ⚙️: {download.eng()}"
             if download.status() not in [MirrorStatus.STATUS_SPLITTING, MirrorStatus.STATUS_SEEDING]:
                 msg += f"\n{get_progress_bar_string(download)} {download.progress()}"
                 msg += f"\n<b>Processed:</b> {get_readable_file_size(download.processed_bytes())} of {download.size()}"
