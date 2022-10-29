@@ -39,7 +39,7 @@ def stats(update, context):
     stats = f'<b>Lunched Date 🚀:</b> {last_commit}\n\n'\
             f'<b>I am Online For 👀:</b> {currentTime}\n\n'\
             f'<b>Total Disk Space ♻️:</b> {total}\n'\
-            f'<b>Used 💠:</b> {used} | <b>Free:</b> {free}\n\n'\
+            f'<b>Used 💠:</b> {used} | <b>Free 🎯:</b> {free}\n\n'\
             f'<b>UP 🔼:</b> {sent} | '\
             f'<b>DOWN 🔽:</b> {recv}\n\n'\
             f'<b>CPU 🌀:</b> {cpuUsage}% | '\
@@ -70,7 +70,7 @@ Type /{BotCommands.HelpCommand} to get a list of available commands 🤝
 '''
         sendMarkup(start_string, context.bot, update.message, reply_markup)
     else:
-        sendMarkup('''💠Hey Stanger, You can not use me in Priver Message.
+        sendMarkup('''💠Hey you. Why are u here, You can not use me in Priver Message,
 
 💠Please Join (https://t.me/Master_Torrenz_s_Cave) To use me.
 💠I can do many things. Some of them are 👇
