@@ -116,7 +116,7 @@ def get_progress_bar_string(status):
     p = 0 if total == 0 else round(completed * 100 / total)
     p = min(max(p, 0), 100)
     cFull = p // 8
-    p_str = '☑' * cFull
+    p_str = '✓' * cFull
     p_str += '☐' * (12 - cFull)
     p_str = f"[{p_str}]"
     return p_str
@@ -132,8 +132,8 @@ def get_readable_message():
                 globals()['COUNT'] -= STATUS_LIMIT
                 globals()['PAGE_NO'] -= 1
         for index, download in enumerate(list(download_dict.values())[COUNT:], start=1):
-            msg += f"\n\n<b>Name 📂:</b> <code>{escape(str(download.name()))}</code>"
-            msg += f"\n<b>Status 📃:</b> <i>{download.status()}</i> | {download.eng()}"
+            msg += f"\n\n<b>Name 🗂:</b> <code>{escape(str(download.name()))}</code>"
+            msg += f"\n<b>Status 📃:</b> <i><b><u>{download.status()}</i></b></u> |Engine ⚙️: {download.eng()}"
             if download.status() not in [MirrorStatus.STATUS_SPLITTING, MirrorStatus.STATUS_SEEDING]:
                 msg += f"\n{get_progress_bar_string(download)} {download.progress()}"
                 msg += f"\n<b>Processed:</b> {get_readable_file_size(download.processed_bytes())} of {download.size()}"
