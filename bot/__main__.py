@@ -36,18 +36,18 @@ def stats(update, context):
     mem_t = get_readable_file_size(memory.total)
     mem_a = get_readable_file_size(memory.available)
     mem_u = get_readable_file_size(memory.used)
-    stats = f'<b>Commit Date:</b> {last_commit}\n\n'\
-            f'<b>Bot Uptime:</b> {currentTime}\n\n'\
-            f'<b>Total Disk Space:</b> {total}\n'\
-            f'<b>Used:</b> {used} | <b>Free:</b> {free}\n\n'\
-            f'<b>Up:</b> {sent} | '\
-            f'<b>Down:</b> {recv}\n\n'\
-            f'<b>CPU:</b> {cpuUsage}% | '\
-            f'<b>RAM:</b> {mem_p}% | '\
-            f'<b>DISK:</b> {disk}%\n\n'\
-            f'<b>Total Memory:</b> {mem_t}\n'\
-            f'<b>Free:</b> {mem_a} | '\
-            f'<b>Used:</b> {mem_u}\n\n'
+    stats = f'<b>Lunched Date 🚀:</b> {last_commit}\n\n'\
+            f'<b>I am Online For 👀:</b> {currentTime}\n\n'\
+            f'<b>Total Disk Space ♻️:</b> {total}\n'\
+            f'<b>Used 💠:</b> {used} | <b>Free:</b> {free}\n\n'\
+            f'<b>UP 🔼:</b> {sent} | '\
+            f'<b>DOWN 🔽:</b> {recv}\n\n'\
+            f'<b>CPU 🌀:</b> {cpuUsage}% | '\
+            f'<b>RAM 💎:</b> {mem_p}% | '\
+            f'<b>DISK 💽:</b> {disk}%\n\n'\
+            f'<b>Total ⚔️:</b> {mem_t}\n'\
+            f'<b>Free 🔫:</b> {mem_a} | '\
+            f'<b>Used 🛠:</b> {mem_u}\n\n'
     sendMessage(stats, context.bot, update.message)
 
 
@@ -55,11 +55,17 @@ def start(update, context):
     buttons = ButtonMaker()
     buttons.buildbutton(f"{START_BTN1_NAME}", f"{START_BTN1_URL}")
     buttons.buildbutton(f"{START_BTN2_NAME}", f"{START_BTN2_URL}")
-    buttons.buildbutton(f"Channel", f"https://t.me/the_seeker_s_cave")
+    buttons.buildbutton(f"Channel 📢", f"https://t.me/the_seeker_s_cave")
+    buttons.buildbutton(f"Donate 💸", f"https://www.paypal.com/donate/?hosted_button_id=VDL539XYV4A66")
     reply_markup = buttons.build_menu(2)
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
         start_string = f'''
-This bot can mirror all your links to Google Drive or to telegram!
+🔻The Supper Powered Master Torrenz V3 is online now 😈.  
+
+🔻For Now my Maximum DL Speed is 120 MB/s
+🔻For Now my Maximum UL Speed is 50 MB/s
+
+🔻So, why are you waiting for?👀 Add ur mirror or leech task right now 🚀!
 Type /{BotCommands.HelpCommand} to get a list of available commands
 '''
         sendMarkup(start_string, context.bot, update.message, reply_markup)
