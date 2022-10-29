@@ -62,7 +62,7 @@ def start(update, context):
         start_string = f'''
 🔻The Super Powered Master Torrenz V3 is online now 😈.  
 
-🔻For Now my Maximum DL Speed is 120 MB/s
+🔻For Now my Maximum DL Speed is 141 MB/s
 🔻For Now my Maximum UL Speed is 50 MB/s
 
 🔻So, why are you waiting for?👀 Add ur mirror or leech task right now! 🚀
