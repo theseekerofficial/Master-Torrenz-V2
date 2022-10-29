@@ -116,7 +116,7 @@ def get_progress_bar_string(status):
     p = 0 if total == 0 else round(completed * 100 / total)
     p = min(max(p, 0), 100)
     cFull = p // 8
-    p_str = '▰' * cFull
+    p_str = '✓' * cFull
     p_str += '▱' * (12 - cFull)
     p_str = f"[{p_str}]"
     return p_str
@@ -158,7 +158,7 @@ def get_readable_message():
                 msg += f"\n<b><a href='{download.message.link}'>Source</a>:</b> {uname} | <b>Id :</b> <code>{download.message.from_user.id}</code>"
             else:
                 msg += ''
-            msg += f"\n<code>/{BotCommands.CancelMirror} {download.gid()}</code>"
+            msg += f"\n<b>To Cansel ❌: </b><code>/{BotCommands.CancelMirror} {download.gid()}</code>"
             msg += "\n\n"
             if STATUS_LIMIT is not None and index == STATUS_LIMIT:
                 break
