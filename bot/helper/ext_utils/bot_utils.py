@@ -132,7 +132,7 @@ def get_readable_message():
                 globals()['COUNT'] -= STATUS_LIMIT
                 globals()['PAGE_NO'] -= 1
         for index, download in enumerate(list(download_dict.values())[COUNT:], start=1):
-            msg += f"\n\n<b>Name 📂:</b> href="https://t.me/c/{str(download.message.chat.id)[4:]}/{download.message.message_id}">{escape(str(download.name()))}</a>"
+            msg += f"\n\n<b>Name 📂:</b> <code>{escape(str(download.name()))}</code>"
             msg += f"\n<b>Status 📃:</b> <i>{download.status()}</i> | {download.eng()}"
             if download.status() not in [MirrorStatus.STATUS_SPLITTING, MirrorStatus.STATUS_SEEDING]:
                 msg += f"\n{get_progress_bar_string(download)} {download.progress()}"
