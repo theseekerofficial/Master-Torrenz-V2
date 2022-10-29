@@ -103,11 +103,11 @@ def bt_selection_buttons(id_: str):
 
     buttons = ButtonMaker()
     if WEB_PINCODE:
-        buttons.buildbutton("Select Files 🔘", f"{BASE_URL}/app/files/{id_}")
-        buttons.sbutton("Pincode 🔑", f"btsel pin {gid} {pincode}")
+        buttons.buildbutton("Select Files", f"{BASE_URL}/app/files/{id_}")
+        buttons.sbutton("Pincode", f"btsel pin {gid} {pincode}")
     else:
-        buttons.buildbutton("Select Files 🔘", f"{BASE_URL}/app/files/{id_}?pin_code={pincode}")
-    buttons.sbutton("Done Selecting ✅", f"btsel done {gid} {id_}")
+        buttons.buildbutton("Select Files", f"{BASE_URL}/app/files/{id_}?pin_code={pincode}")
+    buttons.sbutton("Done Selecting", f"btsel done {gid} {id_}")
     return buttons.build_menu(2)
 
 def get_progress_bar_string(status):
@@ -116,8 +116,8 @@ def get_progress_bar_string(status):
     p = 0 if total == 0 else round(completed * 100 / total)
     p = min(max(p, 0), 100)
     cFull = p // 8
-    p_str = '✓' * cFull
-    p_str += '☐' * (12 - cFull)
+    p_str = '▰' * cFull
+    p_str += '▱' * (12 - cFull)
     p_str = f"[{p_str}]"
     return p_str
 
@@ -132,8 +132,8 @@ def get_readable_message():
                 globals()['COUNT'] -= STATUS_LIMIT
                 globals()['PAGE_NO'] -= 1
         for index, download in enumerate(list(download_dict.values())[COUNT:], start=1):
-            msg += f"\n\n<b>Name 🗂:</b> <code>{escape(str(download.name()))}</code>"
-            msg += f"\n<b>Status 📃:</b> <i>{download.status()}</i> |Engine ⚙️: {download.eng()}"
+            msg += f"<b>Name:</b> <code>{escape(str(download.name()))}</code>"
+            msg += f"\n<b>Status:</b> <i>{download.status()}</i> | {download.eng()}"
             if download.status() not in [MirrorStatus.STATUS_SPLITTING, MirrorStatus.STATUS_SEEDING]:
                 msg += f"\n{get_progress_bar_string(download)} {download.progress()}"
                 msg += f"\n<b>Processed:</b> {get_readable_file_size(download.processed_bytes())} of {download.size()}"
