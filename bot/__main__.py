@@ -70,7 +70,7 @@ Type /{BotCommands.HelpCommand} to get a list of available commands 🤝
 '''
         sendMarkup(start_string, context.bot, update.message, reply_markup)
     else:
-        sendMarkup('''💠Hey you. Why are u here, You can not use me in Priver Message,
+        sendMarkup('''💠Hey you. Why are u here, You can not use me in Private Message,
 
 💠Please Join (https://t.me/Master_Torrenz_s_Cave) To use me.
 💠I can do many things. Some of them are 👇
