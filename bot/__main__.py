@@ -36,7 +36,8 @@ def stats(update, context):
     mem_t = get_readable_file_size(memory.total)
     mem_a = get_readable_file_size(memory.available)
     mem_u = get_readable_file_size(memory.used)
-    stats = f'<b>Lunched Date 🚀:</b> {last_commit}\n\n'\
+    stats = f'<b>✥════ @TSSC_Leech_bot ════✥:</b>\n\n'\
+            f'<b>Lunched Date 🚀:</b> {last_commit}\n\n'\
             f'<b>I am Online For 👀:</b> {currentTime}\n\n'\
             f'<b>Total Disk Space ♻️:</b> {total}\n'\
             f'<b>Used 💠:</b> {used} | <b>Free 🎯:</b> {free}\n\n'\
