@@ -166,7 +166,11 @@ NOTE: Try each command without any perfix to see more detalis.<br><br>
 '''
 
 help_string = f'''
-🔻 Hei, Are U Need Help? Click the button below and find my all cmds 🔻
+🔻 Hei, Are U Need Help? Here is my CMDs list. U can find more cmds by click the button below 🔻
+
+🌟 Normal User CMDs
+
+
 '''
 try:
     help = telegraph.create_page(
