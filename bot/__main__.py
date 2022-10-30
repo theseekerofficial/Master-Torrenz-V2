@@ -44,7 +44,7 @@ def stats(update, context):
             f'<b>💎UP 🔼:</b> {sent} | '\
             f'<b>DOWN 🔽:</b> {recv}\n\n'\
             f'<b>💎CPU 🌀:</b> {cpuUsage}% | '\
-            f'<b>RAM 💎:</b> {mem_p}% | '\
+            f'<b>RAM 🧨:</b> {mem_p}% | '\
             f'<b>DISK 💽:</b> {disk}%\n\n'\
             f'<b>💎Total ⚔️:</b> {mem_t}\n'\
             f'<b>💎Free 🔫:</b> {mem_a} | '\
