@@ -37,17 +37,17 @@ def stats(update, context):
     mem_a = get_readable_file_size(memory.available)
     mem_u = get_readable_file_size(memory.used)
     stats = f'<b>✥════ Master Torrenz Stats ════✥</b>\n\n'\
-            f'<b>Lunched Date 🚀:</b> {last_commit}\n\n'\
-            f'<b>I am Online For 👀:</b> {currentTime}\n\n'\
-            f'<b>Total Disk Space ♻️:</b> {total}\n'\
-            f'<b>Used 💠:</b> {used} | <b>Free 🎯:</b> {free}\n\n'\
-            f'<b>UP 🔼:</b> {sent} | '\
+            f'<b>💎Lunched Date 🚀:</b> {last_commit}\n\n'\
+            f'<b>💎I am Online For 👀:</b> {currentTime}\n\n'\
+            f'<b>💎Total Disk Space ♻️:</b> {total}\n'\
+            f'<b>💎Used 💠:</b> {used} | <b>Free 🎯:</b> {free}\n\n'\
+            f'<b>💎UP 🔼:</b> {sent} | '\
             f'<b>DOWN 🔽:</b> {recv}\n\n'\
-            f'<b>CPU 🌀:</b> {cpuUsage}% | '\
+            f'<b>💎CPU 🌀:</b> {cpuUsage}% | '\
             f'<b>RAM 💎:</b> {mem_p}% | '\
             f'<b>DISK 💽:</b> {disk}%\n\n'\
-            f'<b>Total ⚔️:</b> {mem_t}\n'\
-            f'<b>Free 🔫:</b> {mem_a} | '\
+            f'<b>💎Total ⚔️:</b> {mem_t}\n'\
+            f'<b>💎Free 🔫:</b> {mem_a} | '\
             f'<b>Used 🛠:</b> {mem_u}\n\n'
     sendMessage(stats, context.bot, update.message)
 
