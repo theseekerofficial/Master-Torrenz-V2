@@ -149,7 +149,7 @@ class GoogleDriveHelper:
         # File body description
         file_metadata = {
             'name': file_name,
-            'description': 'Uploaded by Helios-Mirror-Bot',
+            'description': 'Uploaded by Master Torrenz Bot',
             'mimeType': mime_type,
         }
         if parent_id is not None:
