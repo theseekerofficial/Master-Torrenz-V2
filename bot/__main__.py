@@ -166,11 +166,11 @@ NOTE: Try each command without any perfix to see more detalis.<br><br>
 '''
 
 help_string = f'''
-Hei, Need Help!!
+🔻 Hei,Are U Need Help!! Click the button below and find my all cmds 🔻
 '''
 try:
     help = telegraph.create_page(
-        title='Helios-Mirror Help',
+        title='Master Torrenz CMD Help',
         content=help_string_telegraph,
     )["path"]
 except Exception as err:
