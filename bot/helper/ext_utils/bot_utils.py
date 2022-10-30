@@ -159,7 +159,7 @@ def get_readable_message():
             else:
                 msg += ''
             msg += f"\n<b>├To Cansel ❌: </b><code>/{BotCommands.CancelMirror} {download.gid()}</code>"
-            msg += f"\n<b>╰To Select (Only for Torrents)✔️: </b><code>/{BotCommands.BtSelectCommand} {download.gid()}</code>"
+            msg += f"\n<b>╰To Select (Only for Torrents)✔️: </b><code>/{BotCommands.BtSelectCommand} {download.gid()}</code> !\n___________________________"
             msg += "\n\n"
             if STATUS_LIMIT is not None and index == STATUS_LIMIT:
                 break
