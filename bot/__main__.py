@@ -173,64 +173,64 @@ help_string = f'''
 🎁 (Mirror Related Commands)
 
 📌 /mirror : Start mirroring to Google Drive. 🪞
-📌 /zipmirror: ( Recommended ) Start mirroring file/folder compressed with zip extension.
-📌 /unzipmirror: Start mirroring and upload the file/folder extracted from any archive extension.
-📌 /qbmirror: Start Mirroring to Google Drive using qBittorrent.
-📌 /qbzipmirror : Start mirroring using qBittorrent and upload the file/folder compressed with zip extension.
-📌 /qbunzipmirror: Start mirroring using qBittorrent and upload the file/folder extracted from any archive extension.
-📌 /ytdl: Mirror yt-dlp supported link. ( Support site list - https://ytdl-org.github.io/youtube-dl/supportedsites.html ) 
-📌 /ytdlzip: Mirror yt-dlp supported link as zip.
+📌 /zipmirror: ( Recommended ) Start mirroring file/folder compressed with zip extension. 💎
+📌 /unzipmirror: Start mirroring and upload the file/folder extracted from any archive extension. 💸
+📌 /qbmirror: Start Mirroring to Google Drive using qBittorrent. 🔧
+📌 /qbzipmirror : Start mirroring using qBittorrent and upload the file/folder compressed with zip extension. 🪛
+📌 /qbunzipmirror: Start mirroring using qBittorrent and upload the file/folder extracted from any archive extension. ⚒
+📌 /ytdl: Mirror yt-dlp supported link. 🛠 ( Support site list - https://ytdl-org.github.io/youtube-dl/supportedsites.html ) 
+📌 /ytdlzip: Mirror yt-dlp supported link as zip. 🔩
 
 ----------------------
 🎁 (Leech Related Commands)
 
-📌 /leech: Start leeching to Telegram.
-📌 /zipleech: Start leeching and upload the file/folder compressed with zip extension.
-📌 /unzipleech: Start leeching and upload the file/folder extracted from any archive extension.
-📌 /qbleech: Start leeching using qBittorrent.
-📌 /qbzipleech: Start leeching using qBittorrent and upload the file/folder compressed with zip extension.
-📌 /qbunzipleech: Start leeching using qBittorrent and upload the file/folder extracted from any archive extension
-📌 /ytdlleech: Leech yt-dlp supported link.
-📌 /ytdlzipleech: Leech yt-dlp supported link as zip.
+📌 /leech: Start leeching to Telegram. 🧲
+📌 /zipleech: Start leeching and upload the file/folder compressed with zip extension. 🗡
+📌 /unzipleech: Start leeching and upload the file/folder extracted from any archive extension. ⚔️
+📌 /qbleech: Start leeching using qBittorrent. 🛡
+📌 /qbzipleech: Start leeching using qBittorrent and upload the file/folder compressed with zip extension. 🔮
+📌 /qbunzipleech: Start leeching using qBittorrent and upload the file/folder extracted from any archive extension. 🧬
+📌 /ytdlleech: Leech yt-dlp supported link. 🔑
+📌 /ytdlzipleech: Leech yt-dlp supported link as zip. 🪅
 
 ----------------------
 🎁 (Other Commands)
 
-📌 /clone [drive_url]: Copy file/folder to Google Drive.
-📌 /count [drive_url]: Count file/folder of Google Drive.
-📌 /leechset [query]: Leech settings.
-📌 /setthumb: Reply photo to set it as Thumbnail.
-📌 /btsel: Select files from torrents by gid or reply.
-📌 /cancel: Cancel task by gid or reply.
-📌 /list [query]: Search in Google Drive(s).
-📌 /search [query]: Search for torrents with API.
-📌 /status: Shows a status of all the downloads.
-📌 /stats: Show stats of the machine where the bot is hosted in.
+📌 /clone [drive_url]: Copy file/folder to Google Drive. ♻️
+📌 /count [drive_url]: Count file/folder of Google Drive. 💤
+📌 /leechset [query]: Leech settings. 🔰
+📌 /setthumb: Reply photo to set it as Thumbnail. 🔱
+📌 /btsel: Select files from torrents by gid or reply. 🔐
+📌 /cancel: Cancel task by gid or reply. ✂️
+📌 /list [query]: Search in Google Drive(s). 📎
+📌 /search [query]: Search for torrents with API. 🎉
+📌 /status: Shows a status of all the downloads. 📊
+📌 /stats: Show stats of the machine where the bot is hosted in. 📈
 
 🌟 Co-Owner (Sudo) CMDs
 ~~~~~~~~~~~~~~~~~
 
-📌 /ping: Check how long it takes to Ping the Bot. 
-📌 /del [drive_url]: Delete file/folder from Google Drive.
-📌 /cancelall [query]: Cancel all [status] tasks.
-📌 /authorize: Authorize a chat or a user to use the bot.
-📌 /unauthorize: Unauthorize a chat or a user to use the bot.
-📌 /users: Show authorized users.
-📌 /restart: Restart and update the bot
-📌 /log: Get a log file of the bot. Handy for getting crash reports
+📌 /ping: Check how long it takes to Ping the Bot. 🟠
+📌 /del [drive_url]: Delete file/folder from Google Drive. 🟠
+📌 /cancelall [query]: Cancel all [status] tasks. 🟠
+📌 /authorize: Authorize a chat or a user to use the bot. 🟠
+📌 /unauthorize: Unauthorize a chat or a user to use the bot. 🟠
+📌 /users: Show authorized users. 🟠
+📌 /restart: Restart and update the bot. 🟠
+📌 /log: Get a log file of the bot. Handy for getting crash reports. 🟠
 
 🌟 Only Owner CMDs
 ~~~~~~~~~~~~~~
 
-📌 All above cmds
-📌 /addleechlog: Add Leech log 
-📌 /rmleechlog: Remove Leech log
-📌 /addsudo: Add sudo user
-📌 /rmsudo: Remove sudo users
-📌 /shell: Run shell commands
-📌 /eval: Run Python Code Line
-📌 /exec: Run Commands In Exec
-📌 /clearlocals: Clear eval or exec locals
+📌 All above cmds 🔴
+📌 /addleechlog: Add Leech log 🔴
+📌 /rmleechlog: Remove Leech log 🔴
+📌 /addsudo: Add sudo user 🔴
+📌 /rmsudo: Remove sudo users 🔴
+📌 /shell: Run shell commands 🔴
+📌 /eval: Run Python Code Line 🔴
+📌 /exec: Run Commands In Exec 🔴
+📌 /clearlocals: Clear eval or exec locals 🔴
 
 🌟 Special Owner & Sudo CMDs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
