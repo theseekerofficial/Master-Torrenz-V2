@@ -169,8 +169,14 @@ help_string = f'''
 🔻 Hei, Are U Need Help? Here is my CMDs list. U can find more cmds by click the button below 🔻
 
 🌟 Normal User CMDs
+   (Mirror Related Commands)
 
-
+📌 /mirror : Start mirroring to Google Drive. 🪞
+📌
+📌
+📌
+📌
+📌
 '''
 try:
     help = telegraph.create_page(
