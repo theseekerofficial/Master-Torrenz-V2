@@ -169,7 +169,7 @@ help_string = f'''
 🔻 Hei, Are U Need Help? Here is my CMDs list. U can find more cmds by click the button below 🔻
 
 🌟 Normal User CMDs
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 🎁 (Mirror Related Commands)
 
 📌 /mirror : Start mirroring to Google Drive. 🪞
@@ -207,8 +207,8 @@ help_string = f'''
 📌 /status: Shows a status of all the downloads.
 📌 /stats: Show stats of the machine where the bot is hosted in.
 
-🌟 Co-admin CMDs
-~~~~~~~~~~~~~~~~~~~
+🌟 Co-Owner (Sudo) CMDs
+~~~~~~~~~~~~~~~~~
 
 📌 /ping: Check how long it takes to Ping the Bot. 
 📌 /del [drive_url]: Delete file/folder from Google Drive.
@@ -216,13 +216,32 @@ help_string = f'''
 📌 /authorize: Authorize a chat or a user to use the bot.
 📌 /unauthorize: Unauthorize a chat or a user to use the bot.
 📌 /users: Show authorized users.
-📌 /addleechlog: Add Leech log.
-📌 
-📌 
-📌 
-📌 
-📌 
-📌 
+📌 /restart: Restart and update the bot
+📌 /log: Get a log file of the bot. Handy for getting crash reports
+
+🌟 Only Owner CMDs
+~~~~~~~~~~~~~~
+
+📌 All above cmds
+📌 /addleechlog: Add Leech log 
+📌 /rmleechlog: Remove Leech log
+📌 /addsudo: Add sudo user
+📌 /rmsudo: Remove sudo users
+📌 /shell: Run shell commands
+📌 /eval: Run Python Code Line
+📌 /exec: Run Commands In Exec
+📌 /clearlocals: Clear eval or exec locals
+
+🌟 Special Owner & Sudo CMDs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+🎁 (RSS Related Commands:)
+
+📌 /rsslist: List all subscribed rss feed info 😀
+📌 /rssget: Force fetch last N links 😄
+📌 /rsssub: Subscribe new rss feed 😁
+📌 /rssunsub: Unubscribe rss feed by title 😆
+📌 /rssset[query]: Rss Settings 😌
+📌 And Some seacret cmds 😏
 '''
 try:
     help = telegraph.create_page(
