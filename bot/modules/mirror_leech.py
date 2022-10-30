@@ -201,7 +201,7 @@ def _mirror_leech(bot, message, isZip=False, extract=False, isQbit=False, isLeec
                     LOGGER.error(str(e))
                     return sendMessage(tag + " " + error, bot, message)
         else:
-            msg = "Qb commands for torrents only. if you are trying to dowload torrent then report."
+            msg = "❌ Qb commands for torrents only. if you are trying to dowload torrent then report. ❌"
             return sendMessage(msg, bot, message)
 
     listener = MirrorLeechListener(bot, message, isZip, extract, isQbit, isLeech, pswd, tag, select, seed)
