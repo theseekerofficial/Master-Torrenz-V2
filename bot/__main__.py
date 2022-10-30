@@ -169,14 +169,60 @@ help_string = f'''
 🔻 Hei, Are U Need Help? Here is my CMDs list. U can find more cmds by click the button below 🔻
 
 🌟 Normal User CMDs
-   (Mirror Related Commands)
+~~~~~~~~~~~~~~~~~~~
+🎁 (Mirror Related Commands)
 
 📌 /mirror : Start mirroring to Google Drive. 🪞
-📌
-📌
-📌
-📌
-📌
+📌 /zipmirror: ( Recommended ) Start mirroring file/folder compressed with zip extension.
+📌 /unzipmirror: Start mirroring and upload the file/folder extracted from any archive extension.
+📌 /qbmirror: Start Mirroring to Google Drive using qBittorrent.
+📌 /qbzipmirror : Start mirroring using qBittorrent and upload the file/folder compressed with zip extension.
+📌 /qbunzipmirror: Start mirroring using qBittorrent and upload the file/folder extracted from any archive extension.
+📌 /ytdl: Mirror yt-dlp supported link. ( Support site list - https://ytdl-org.github.io/youtube-dl/supportedsites.html ) 
+📌 /ytdlzip: Mirror yt-dlp supported link as zip.
+
+----------------------
+🎁 (Leech Related Commands)
+
+📌 /leech: Start leeching to Telegram.
+📌 /zipleech: Start leeching and upload the file/folder compressed with zip extension.
+📌 /unzipleech: Start leeching and upload the file/folder extracted from any archive extension.
+📌 /qbleech: Start leeching using qBittorrent.
+📌 /qbzipleech: Start leeching using qBittorrent and upload the file/folder compressed with zip extension.
+📌 /qbunzipleech: Start leeching using qBittorrent and upload the file/folder extracted from any archive extension
+📌 /ytdlleech: Leech yt-dlp supported link.
+📌 /ytdlzipleech: Leech yt-dlp supported link as zip.
+
+----------------------
+🎁 (Other Commands)
+
+📌 /clone [drive_url]: Copy file/folder to Google Drive.
+📌 /count [drive_url]: Count file/folder of Google Drive.
+📌 /leechset [query]: Leech settings.
+📌 /setthumb: Reply photo to set it as Thumbnail.
+📌 /btsel: Select files from torrents by gid or reply.
+📌 /cancel: Cancel task by gid or reply.
+📌 /list [query]: Search in Google Drive(s).
+📌 /search [query]: Search for torrents with API.
+📌 /status: Shows a status of all the downloads.
+📌 /stats: Show stats of the machine where the bot is hosted in.
+
+🌟 Co-admin CMDs
+~~~~~~~~~~~~~~~~~~~
+
+📌 /ping: Check how long it takes to Ping the Bot. 
+📌 /del [drive_url]: Delete file/folder from Google Drive.
+📌 /cancelall [query]: Cancel all [status] tasks.
+📌 /authorize: Authorize a chat or a user to use the bot.
+📌 /unauthorize: Unauthorize a chat or a user to use the bot.
+📌 /users: Show authorized users.
+📌 /addleechlog: Add Leech log.
+📌 
+📌 
+📌 
+📌 
+📌 
+📌 
 '''
 try:
     help = telegraph.create_page(
