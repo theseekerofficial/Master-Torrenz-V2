@@ -159,7 +159,9 @@ def get_readable_message():
             else:
                 msg += ''
             msg += f"\n<b>├To Cansel ❌: </b><code>/{BotCommands.CancelMirror} {download.gid()}</code>"
-            msg += f"\n<b>╰Select Files (Only Torrents)✔️: </b><code>/{BotCommands.BtSelectCommand} {download.gid()}</code> \n__________________________________________"
+            msg += f"\n<b>╰Select Files (Only Torrents & Direct link)✔️: </b><code>/{BotCommands.BtSelectCommand} {download.gid()}</code>"
+            msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/20'>├📌Why My download speed is too slow? Click hear📌</a></b>"
+            msg += f"\n__________________________________________"
             msg += "\n\n"
             if STATUS_LIMIT is not None and index == STATUS_LIMIT:
                 break
