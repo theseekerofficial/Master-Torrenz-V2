@@ -354,8 +354,9 @@ class GoogleDriveHelper:
                 msg += f'<b>Name ☑️: </b><code>{file.get("name")}</code>'
                 durl = self.__G_DRIVE_BASE_DOWNLOAD_URL.format(file.get("id"))
                 buttons = ButtonMaker()
-                buttons.buildbutton("☁️ Drive Link", durl)
-                buttons.buildbutton("Drive Link", f'https://t.me/the_seeker_s_cave')
+                buttons.buildbutton("☁️Drive Link☁️", durl)
+                buttons.buildbutton("📢Channel📢", f'https://t.me/the_seeker_s_cave')
+                buttons.buildbutton("✨Mirror Group✨", f'https://t.me/the_seeker_s_cave')
                 if mime_type is None:
                     mime_type = 'File'
                 msg += f'\n\n<b>Size 💾: </b>{get_readable_file_size(int(meta.get("size", 0)))}'
@@ -363,12 +364,12 @@ class GoogleDriveHelper:
                 if INDEX_URL is not None:
                     url_path = rquote(f'{file.get("name")}', safe='')
                     url = f'{INDEX_URL}/{url_path}'
-                    buttons.buildbutton("⚡ Index Link", url)
+                    buttons.buildbutton("⚡Index Link⚡", url)
                     if VIEW_LINK:
                         urls = f'{INDEX_URL}/{url_path}?a=view'
-                        buttons.buildbutton("🌐 View Link", urls)
+                        buttons.buildbutton("🌐View Link🌐", urls)
                     if SOURCE_LINK is True:
-                        buttons.buildbutton(f"🔗 Source Link", link)
+                        buttons.buildbutton(f"🔗Source Link🔗", link)
         except Exception as err:
             if isinstance(err, RetryError):
                 LOGGER.info(f"Total Attempts: {err.last_attempt.attempt_number}")
