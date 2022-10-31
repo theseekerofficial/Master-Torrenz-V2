@@ -345,7 +345,6 @@ class GoogleDriveHelper:
                 msg += f'\n<b>Files ⚒: </b>{self.__total_files}'
                 buttons = ButtonMaker()
                 buttons.buildbutton("☁️ Drive Link", durl)
-                buttons.buildbutton("Drive Link", f'https://t.me/the_seeker_s_cave')
                 if INDEX_URL is not None:
                     url_path = rquote(f'{meta.get("name")}', safe='')
                     url = f'{INDEX_URL}/{url_path}/'
@@ -356,6 +355,7 @@ class GoogleDriveHelper:
                 durl = self.__G_DRIVE_BASE_DOWNLOAD_URL.format(file.get("id"))
                 buttons = ButtonMaker()
                 buttons.buildbutton("☁️ Drive Link", durl)
+                buttons.buildbutton("Drive Link", f'https://t.me/the_seeker_s_cave')
                 if mime_type is None:
                     mime_type = 'File'
                 msg += f'\n\n<b>Size 💾: </b>{get_readable_file_size(int(meta.get("size", 0)))}'
