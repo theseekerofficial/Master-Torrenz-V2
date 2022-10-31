@@ -354,9 +354,9 @@ class GoogleDriveHelper:
                 msg += f'<b>Name ☑️: </b><code>{file.get("name")}</code>'
                 durl = self.__G_DRIVE_BASE_DOWNLOAD_URL.format(file.get("id"))
                 buttons = ButtonMaker()
-                buttons.buildbutton("☁️Drive Link☁️", durl)
                 buttons.buildbutton("📢Channel📢", f'https://t.me/the_seeker_s_cave')
                 buttons.buildbutton("✨Mirror Group✨", f'https://t.me/the_seeker_s_cave')
+                buttons.buildbutton("☁️Drive Link☁️", durl)
                 if mime_type is None:
                     mime_type = 'File'
                 msg += f'\n\n<b>Size 💾: </b>{get_readable_file_size(int(meta.get("size", 0)))}'
