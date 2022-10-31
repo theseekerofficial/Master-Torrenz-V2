@@ -160,7 +160,7 @@ def get_readable_message():
                 msg += ''
             msg += f"\n<b>├To Cansel ❌: </b><code>/{BotCommands.CancelMirror} {download.gid()}</code>"
             msg += f"\n<b>╰Select Files (Only Torrents & Direct link)✔️: </b><code>/{BotCommands.BtSelectCommand} {download.gid()}</code>"
-            msg += "\n\n"
+            msg += "\n"
             msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/20'>📌Why My download speed is too slow? Click heae📌</a></b>"
             msg += f"\n__________________________________________"
             msg += "\n\n"
