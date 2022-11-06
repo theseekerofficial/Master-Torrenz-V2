@@ -112,57 +112,57 @@ def log(update, context):
 help_string_telegraph = f'''
 NOTE: Try each command without any perfix to see more detalis.<br><br>
 <b>Mirror Related Commands:</b><br>
-<b>/{BotCommands.MirrorCommand}</b> : Start mirroring to Google Drive.<br><br>
-<b>/{BotCommands.ZipMirrorCommand}</b>: Start mirroring and upload the file/folder compressed with zip extension.<br><br>
-<b>/{BotCommands.UnzipMirrorCommand}</b>: Start mirroring and upload the file/folder extracted from any archive extension.<br><br>
-<b>/{BotCommands.QbMirrorCommand}</b>: Start Mirroring to Google Drive using qBittorrent.<br><br>
-<b>/{BotCommands.QbZipMirrorCommand}</b> : Start mirroring using qBittorrent and upload the file/folder compressed with zip extension.<br><br>
-<b>/{BotCommands.QbUnzipMirrorCommand}</b>: Start mirroring using qBittorrent and upload the file/folder extracted from any archive extension.<br><br>
-<b>/{BotCommands.YtdlCommand}</b>: Mirror yt-dlp supported link.<br><br>
-<b>/{BotCommands.YtdlZipCommand}</b>: Mirror yt-dlp supported link as zip.<br><br>
+<b>/{BotCommands.MirrorCommand}</b> :🌀 Start mirroring to Google Drive.<br><br>
+<b>/{BotCommands.ZipMirrorCommand}</b>:🌀 Start mirroring and upload the file/folder compressed with zip extension.<br><br>
+<b>/{BotCommands.UnzipMirrorCommand}</b>:🌀 Start mirroring and upload the file/folder extracted from any archive extension.<br><br>
+<b>/{BotCommands.QbMirrorCommand}</b>:🌀 Start Mirroring to Google Drive using qBittorrent.<br><br>
+<b>/{BotCommands.QbZipMirrorCommand}</b> :🌀 Start mirroring using qBittorrent and upload the file/folder compressed with zip extension.<br><br>
+<b>/{BotCommands.QbUnzipMirrorCommand}</b>:🌀 Start mirroring using qBittorrent and upload the file/folder extracted from any archive extension.<br><br>
+<b>/{BotCommands.YtdlCommand}</b>:🌀 Mirror yt-dlp supported link.<br><br>
+<b>/{BotCommands.YtdlZipCommand}</b>:🌀 Mirror yt-dlp supported link as zip.<br><br>
 <b>Leech Related Commands:</b><br>
-<b>/{BotCommands.LeechCommand}</b>: Start leeching to Telegram.<br><br>
-<b>/{BotCommands.ZipLeechCommand}</b>: Start leeching and upload the file/folder compressed with zip extension.<br><br>
-<b>/{BotCommands.UnzipLeechCommand}</b>: Start leeching and upload the file/folder extracted from any archive extension.<br><br>
-<b>/{BotCommands.QbLeechCommand}</b>: Start leeching using qBittorrent.<br><br>
-<b>/{BotCommands.QbZipLeechCommand}</b>: Start leeching using qBittorrent and upload the file/folder compressed with zip extension.<br><br>
-<b>/{BotCommands.QbUnzipLeechCommand}</b>: Start leeching using qBittorrent and upload the file/folder extracted from any archive extension<br><br>
-<b>/{BotCommands.YtdlLeechCommand}</b>: Leech yt-dlp supported link.<br><br>
-<b>/{BotCommands.YtdlZipLeechCommand}</b>: Leech yt-dlp supported link as zip.<br><br>
+<b>/{BotCommands.LeechCommand}</b>:🌀 Start leeching to Telegram.<br><br>
+<b>/{BotCommands.ZipLeechCommand}</b>:🌀 Start leeching and upload the file/folder compressed with zip extension.<br><br>
+<b>/{BotCommands.UnzipLeechCommand}</b>:🌀 Start leeching and upload the file/folder extracted from any archive extension.<br><br>
+<b>/{BotCommands.QbLeechCommand}</b>:🌀 Start leeching using qBittorrent.<br><br>
+<b>/{BotCommands.QbZipLeechCommand}</b>:🌀 Start leeching using qBittorrent and upload the file/folder compressed with zip extension.<br><br>
+<b>/{BotCommands.QbUnzipLeechCommand}</b>:🌀 Start leeching using qBittorrent and upload the file/folder extracted from any archive extension<br><br>
+<b>/{BotCommands.YtdlLeechCommand}</b>:🌀 Leech yt-dlp supported link.<br><br>
+<b>/{BotCommands.YtdlZipLeechCommand}</b>:🌀 Leech yt-dlp supported link as zip.<br><br>
 <b>Other Commands:</b><br>
-<b>/{BotCommands.CloneCommand}</b> [drive_url]: Copy file/folder to Google Drive.<br><br>
-<b>/{BotCommands.CountCommand}</b> [drive_url]: Count file/folder of Google Drive.<br><br>
-<b>/{BotCommands.LeechSetCommand}</b> [query]: Leech settings.<br><br>
-<b>/{BotCommands.SetThumbCommand}</b>: Reply photo to set it as Thumbnail.<br><br>
-<b>/{BotCommands.BtSelectCommand}</b>: Select files from torrents by gid or reply.<br><br>
-<b>/{BotCommands.CancelMirror}</b>: Cancel task by gid or reply.<br><br>
-<b>/{BotCommands.ListCommand}</b> [query]: Search in Google Drive(s).<br><br>
-<b>/{BotCommands.SearchCommand}</b> [query]: Search for torrents with API.<br><br>
-<b>/{BotCommands.StatusCommand}</b>: Shows a status of all the downloads.<br><br>
-<b>/{BotCommands.StatsCommand}</b>: Show stats of the machine where the bot is hosted in.<br><br>
-<b>/{BotCommands.PingCommand}</b>: Check how long it takes to Ping the Bot (Only Owner & Sudo).<br><br>
+<b>/{BotCommands.CloneCommand}</b> [drive_url]:🌀 Copy file/folder to Google Drive.<br><br>
+<b>/{BotCommands.CountCommand}</b> [drive_url]:🌀 Count file/folder of Google Drive.<br><br>
+<b>/{BotCommands.LeechSetCommand}</b> [query]:🌀 Leech settings.<br><br>
+<b>/{BotCommands.SetThumbCommand}</b>:🌀 Reply photo to set it as Thumbnail.<br><br>
+<b>/{BotCommands.BtSelectCommand}</b>:🌀 Select files from torrents by gid or reply.<br><br>
+<b>/{BotCommands.CancelMirror}</b>:🌀 Cancel task by gid or reply.<br><br>
+<b>/{BotCommands.ListCommand}</b> [query]:🌀 Search in Google Drive(s).<br><br>
+<b>/{BotCommands.SearchCommand}</b> [query]:🌀 Search for torrents with API.<br><br>
+<b>/{BotCommands.StatusCommand}</b>:🌀 Shows a status of all the downloads.<br><br>
+<b>/{BotCommands.StatsCommand}</b>:🌀 Show stats of the machine where the bot is hosted in.<br><br>
+<b>/{BotCommands.PingCommand}</b>:🌀 Check how long it takes to Ping the Bot (Only Owner & Sudo).<br><br>
 <b>Sudo/Owner Only Commands:</b> <br>
-<b>/{BotCommands.DeleteCommand}</b> [drive_url]: Delete file/folder from Google Drive (Only Owner & Sudo).<br><br>
-<b>/{BotCommands.CancelAllCommand}</b> [query]: Cancel all [status] tasks.<br><br>
-<b>/{BotCommands.AuthorizeCommand}</b>: Authorize a chat or a user to use the bot (Only Owner & Sudo).<br><br>
-<b>/{BotCommands.UnAuthorizeCommand}</b>: Unauthorize a chat or a user to use the bot (Only Owner & Sudo).<br><br>
-<b>/{BotCommands.AuthorizedUsersCommand}</b>: Show authorized users (Only Owner & Sudo).<br><br>
-<b>/{BotCommands.AddleechlogCommand}</b>: Add Leech log (Only Owner).<br><br>
-<b>/{BotCommands.RmleechlogCommand}</b>: Remove Leech log (Only Owner).<br><br>
-<b>/{BotCommands.AddSudoCommand}</b>: Add sudo user (Only Owner).<br><br>
-<b>/{BotCommands.RmSudoCommand}</b>: Remove sudo users (Only Owner).<br><br>
-<b>/{BotCommands.RestartCommand}</b>: Restart and update the bot (Only Owner & Sudo).<br><br>
-<b>/{BotCommands.LogCommand}</b>: Get a log file of the bot. Handy for getting crash reports (Only Owner & Sudo).<br><br>
-<b>/{BotCommands.ShellCommand}</b>: Run shell commands (Only Owner).<br><br>
-<b>/{BotCommands.EvalCommand}</b>: Run Python Code Line | Lines (Only Owner).<br><br>
-<b>/{BotCommands.ExecCommand}</b>: Run Commands In Exec (Only Owner).<br><br>
-<b>/{BotCommands.ClearLocalsCommand}</b>: Clear <b>{BotCommands.EvalCommand}</b> or <b>{BotCommands.ExecCommand}</b> locals (Only Owner).<br><br>
+<b>/{BotCommands.DeleteCommand}</b> [drive_url]:🌀 Delete file/folder from Google Drive (Only Owner & Sudo).<br><br>
+<b>/{BotCommands.CancelAllCommand}</b> [query]:🌀 Cancel all [status] tasks.<br><br>
+<b>/{BotCommands.AuthorizeCommand}</b>:🌀 Authorize a chat or a user to use the bot (Only Owner & Sudo).<br><br>
+<b>/{BotCommands.UnAuthorizeCommand}</b>:🌀 Unauthorize a chat or a user to use the bot (Only Owner & Sudo).<br><br>
+<b>/{BotCommands.AuthorizedUsersCommand}</b>:🌀 Show authorized users (Only Owner & Sudo).<br><br>
+<b>/{BotCommands.AddleechlogCommand}</b>:🌀 Add Leech log (Only Owner).<br><br>
+<b>/{BotCommands.RmleechlogCommand}</b>:🌀 Remove Leech log (Only Owner).<br><br>
+<b>/{BotCommands.AddSudoCommand}</b>:🌀 Add sudo user (Only Owner).<br><br>
+<b>/{BotCommands.RmSudoCommand}</b>:🌀 Remove sudo users (Only Owner).<br><br>
+<b>/{BotCommands.RestartCommand}</b>:🌀 Restart and update the bot (Only Owner & Sudo).<br><br>
+<b>/{BotCommands.LogCommand}</b>:🌀 Get a log file of the bot. Handy for getting crash reports (Only Owner & Sudo).<br><br>
+<b>/{BotCommands.ShellCommand}</b>:🌀 Run shell commands (Only Owner).<br><br>
+<b>/{BotCommands.EvalCommand}</b>:🌀 Run Python Code Line | Lines (Only Owner).<br><br>
+<b>/{BotCommands.ExecCommand}</b>:🌀 Run Commands In Exec (Only Owner).<br><br>
+<b>/{BotCommands.ClearLocalsCommand}</b>:🌀 Clear <b>{BotCommands.EvalCommand}</b> or <b>{BotCommands.ExecCommand}</b> locals (Only Owner).<br><br>
 <b>RSS Related Commands:</b><br>
-<b>/{BotCommands.RssListCommand}</b>: List all subscribed rss feed info (Only Owner & Sudo).<br><br>
-<b>/{BotCommands.RssGetCommand}</b>: Force fetch last N links (Only Owner & Sudo).<br><br>
-<b>/{BotCommands.RssSubCommand}</b>: Subscribe new rss feed (Only Owner & Sudo).<br><br>
-<b>/{BotCommands.RssUnSubCommand}</b>: Unubscribe rss feed by title (Only Owner & Sudo).<br><br>
-<b>/{BotCommands.RssSettingsCommand}</b>[query]: Rss Settings (Only Owner & Sudo).<br><br>
+<b>/{BotCommands.RssListCommand}</b>:🌀 List all subscribed rss feed info (Only Owner & Sudo).<br><br>
+<b>/{BotCommands.RssGetCommand}</b>:🌀 Force fetch last N links (Only Owner & Sudo).<br><br>
+<b>/{BotCommands.RssSubCommand}</b>:🌀 Subscribe new rss feed (Only Owner & Sudo).<br><br>
+<b>/{BotCommands.RssUnSubCommand}</b>:🌀 Unubscribe rss feed by title (Only Owner & Sudo).<br><br>
+<b>/{BotCommands.RssSettingsCommand}</b>[query]:🌀 Rss Settings (Only Owner & Sudo).<br><br>
 '''
 
 help_string = f'''
