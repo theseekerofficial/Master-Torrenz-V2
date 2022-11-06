@@ -510,9 +510,9 @@ except KeyError:
 try:
     AUTHOR_NAME = getConfig('AUTHOR_NAME')
     if len(AUTHOR_NAME) == 0:
-        AUTHOR_NAME = 'Arsh Sisodiya'
+        AUTHOR_NAME = 'The Seeker'
 except KeyError:
-    AUTHOR_NAME = 'Arsh Sisodiya'
+    AUTHOR_NAME = 'The Seeker'
 
 try:
     AUTHOR_URL = getConfig('AUTHOR_URL')
