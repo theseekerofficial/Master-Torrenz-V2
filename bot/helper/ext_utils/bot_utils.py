@@ -161,7 +161,10 @@ def get_readable_message():
             msg += f"\n<b>├To Cansel ❌: </b><code>/{BotCommands.CancelMirror} {download.gid()}</code>"
             msg += f"\n<b>╰Select Files (Only Torrents & Direct link)✔️: </b><code>/{BotCommands.BtSelectCommand} {download.gid()}</code>"
             msg += "\n\n"
+            msg += f"\n<b>🌟All Links u want🌟</b>"
             msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/20'>📌Why your download speed is too slow? Click here📌</a></b>"
+            msg += f"\n<b><a href='https://t.me/Master_Torrenz_s_Cave'>📌Offcial Mirror/Leech Group📌</a></b>"
+            msg += f"\n<b><a href='https://t.me/MrUnknown114'>📌The Owner📌</a></b>"
             msg += f"\n__________________________________________"
             msg += "\n\n"
             if STATUS_LIMIT is not None and index == STATUS_LIMIT:
@@ -189,6 +192,7 @@ def get_readable_message():
                     up_speed += float(spd.split('K')[0]) * 1024
                 elif 'M' in spd:
                     up_speed += float(spd.split('M')[0]) * 1048576
+        bmsg = f"\n<b>Version 💙- <code>Master Torrenz V5.12</code></b>"
         bmsg = f"<b>CPU 🌀:</b> {cpu_percent()}% | <b>FREE ♻️:</b> {get_readable_file_size(disk_usage(DOWNLOAD_DIR).free)}"
         bmsg += f"\n<b>RAM 🔰:</b> {virtual_memory().percent}% | <b>UPTIME 👀:</b> {get_readable_time(time() - botStartTime)}"
         bmsg += f"\n<b>DL 🔽:</b> {get_readable_file_size(dl_speed)}/s | <b>UL 🔼:</b> {get_readable_file_size(up_speed)}/s"
