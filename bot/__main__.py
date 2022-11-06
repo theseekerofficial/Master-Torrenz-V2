@@ -61,10 +61,10 @@ def start(update, context):
     reply_markup = buttons.build_menu(2)
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
         start_string = f'''
-🔻The Super Powered Master Torrenz V3 is online now 😈.  
+🔻The Super Powered Master Torrenz V3 is online now 😈 | Use @TSSC_Game_Mirror_Robot for mirror games 💚. ❌U can't use me for mirror or leech games❌.  
 
-🔻For Now my Maximum DL Speed is 141 MB/s
-🔻For Now my Maximum UL Speed is 50 MB/s
+🔻For Now my Maximum DL Speed is 256 MB/s
+🔻For Now my Maximum UL Speed is 189 MB/s
 
 🔻So, why are you waiting for?👀 Add ur mirror or leech task right now! 🚀
 Type /{BotCommands.HelpCommand} to get a list of available commands 🤝
