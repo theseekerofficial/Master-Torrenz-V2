@@ -162,9 +162,9 @@ def get_readable_message():
             msg += f"\n<b>╰Select Files (Only Torrents & Direct link)✔️: </b><code>/{BotCommands.BtSelectCommand} {download.gid()}</code>"
             msg += "\n\n"
             msg += f"<b>🌟All Links u want🌟</b>"
-            msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/20'>📌Why your download speed is too slow? Click here📌</a></b>"
-            msg += f"\n<b><a href='https://t.me/Master_Torrenz_s_Cave'>📌Offcial Mirror/Leech Group📌</a></b>"
-            msg += f"\n<b><a href='https://t.me/MrUnknown114'>📌The Owner📌</a></b>"
+            msg += f"\n<b><a href='https://t.me/the_seeker_s_cave/20'>📌Why your download speed is too slow? Click here</a></b>"
+            msg += f"\n<b><a href='https://t.me/Master_Torrenz_s_Cave'>📌Offcial Mirror/Leech Group</a></b>"
+            msg += f"\n<b><a href='https://t.me/MrUnknown114'>📌The Owner</a></b>"
             msg += f"\n__________________________________________"
             msg += "\n\n"
             if STATUS_LIMIT is not None and index == STATUS_LIMIT:
