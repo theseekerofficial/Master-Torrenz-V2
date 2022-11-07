@@ -196,7 +196,7 @@ def get_readable_message():
         bmsg = f"<b>CPU 🌀:</b> {cpu_percent()}% | <b>FREE ♻️:</b> {get_readable_file_size(disk_usage(DOWNLOAD_DIR).free)}"
         bmsg += f"\n<b>RAM 🔰:</b> {virtual_memory().percent}% | <b>UPTIME 👀:</b> {get_readable_time(time() - botStartTime)}"
         bmsg += f"\n<b>DL 🔽:</b> {get_readable_file_size(dl_speed)}/s | <b>UL 🔼:</b> {get_readable_file_size(up_speed)}/s"
-        bmsg += f"\n<b>Version 💙:</b> <code>Master Torrenz V5.12</code>"
+        bmsg += f"\n<b>Version 💙:</b> <code>Master Torrenz V3.12</code>"
         buttons = ButtonMaker()
         buttons.sbutton("🔻 Statistics 🔻", str(FOUR))
         sbutton = buttons.build_menu(1)
